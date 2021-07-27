@@ -7,7 +7,7 @@ Selected text color(orange):#FC766A,
 
 /*Fonts*/
 body{
-  background-color:#E4DAE3;
+  background-color:#FCFAFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -15,26 +15,67 @@ body{
   color:#100318;
 }
 h1,h2,h3,h4{
-  line-height: 1.4;
+  line-height: 1.5;
 }
 h1{
-  font-size: 2.75em;
+  font-size: 1.5em;
   font-weight: 500;
 }
 h2{
-  font-size: 2.25em;
+  font-size: 1.3em;
   font-weight: 500;
 }
 h3{
-  font-size: 1.75em;
-  font-weight: 300;
+  font-size: 1.1em;
+  font-weight: 500;
 }
-h1{
-  font-size: 1.35em;
+p{
+  font-size: 0.9em;
   font-weight: 300;
 }
 
 /*Scale Images*/
 img{
   width:100;
+}
+
+a {
+  color: #100318;
+  text-decoration: none; /* No underlining */
+}
+a:hover {
+  color: #FC766A;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+/*Read More Buttons*/
+/*it needs to go close to the bottom; otherwise, it could get overwritten by other
+less specific rules, such as the general styling rules for all of your hyperlinks.*/
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #100318;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 500;
+  padding: 7px;
+  border-radius: 3px;
+  border-bottom: 2px solid #100318; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  background-color: #FC766A;
+  color: #ffffff;
+  pacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+/*Email Buttons*/
+.button.contact {
+  background-color: transparent;
+  color: #100318;
+  text-transform: uppercase;
+  border: 2px solid #100318;
+}
+.button.contact:hover {
+  background-color: #FC766A;
+  color: #ffffff;
 }
