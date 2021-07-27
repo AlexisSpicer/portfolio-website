@@ -4,3 +4,37 @@ Header and Footer Background (light purple):#E4DAE3,
 Unselected text color(dark purple):#100318,
 Selected text color(orange):#FC766A,
 */
+
+/*Fonts*/
+body{
+  background-color:#E4DAE3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color:#100318;
+}
+h1,h2,h3,h4{
+  line-height: 1.4;
+}
+h1{
+  font-size: 2.75em;
+  font-weight: 500;
+}
+h2{
+  font-size: 2.25em;
+  font-weight: 500;
+}
+h3{
+  font-size: 1.75em;
+  font-weight: 300;
+}
+h1{
+  font-size: 1.35em;
+  font-weight: 300;
+}
+
+/*Scale Images*/
+img{
+  width:100;
+}
