@@ -70,7 +70,10 @@ a:hover {
   color: #FF5662;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
-
+a:active { /* selected link */
+  color: #FF5662;
+  text-decoration: none;
+}
 .phone{
   color: #FF5662;
   text-decoration: none; /* No underlining */
