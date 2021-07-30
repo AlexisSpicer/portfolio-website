@@ -1,18 +1,18 @@
 /*
 Colors
 H(light purple):#E4DAE3,
-(dark purple):#100318,
+(dark purple):#461A3F,
 (orange):#FC766A,
 grey purple:#4C3549
 */
 
 /*Heading*/
 header {
-  background-color: #FEE9E7;
+  background-color: #F2E3F0;
   text-align: center;
   padding: 10px 0;
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-  box-shadow:0px 3px 5px 0px rgba(252, 118, 106, 1);
+  box-shadow: 2px 2px 3px 0px rgba(123, 65, 123, 0.75);
   position:fixed;
   width:100%;
 }
@@ -23,19 +23,20 @@ header {
 }
 
 main{
-  padding-top:114px;
+  padding-top:129.31px;
 
 }
 /*Fonts*/
 body{
-  background-color:#FCFAFF
-  ;
+  background-color:#FCFAFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
   color:#100318;
+  text-align: left;
 }
+
 h1,h2,h3,h4{
   line-height: 1.5;
 }
@@ -58,24 +59,24 @@ p{
 
 /*Scale Images*/
 img{
-  width:100;
+  width:100%;
 }
 
 a {
-  color: #100318;
+  color: #FF5662;
   text-decoration: none; /* No underlining */
 }
 a:hover {
-  color: #FC766A;
+  color: #FF5662;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 .phone{
-  color: #FC766A;
+  color: #FF5662;
   text-decoration: none; /* No underlining */
 }
 .phone:hover {
-  color: #FC766A;
+  color: #FF5662;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
@@ -84,30 +85,30 @@ a:hover {
 less specific rules, such as the general styling rules for all of your hyperlinks.*/
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, Remember when you added display:inline-block; to your .button selector in the previous exercise? You did this because buttons, which are an <a> element, default to display:inline;, thus, making them hard to position as they don’t apply vertical spacing. This wasn’t what you wanted, so you overwrote this behavior by changing it to inline-block. */
-  background-color: #100318;
+  background-color: #461A3F;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 500;
   padding: 7px;
   border-radius: 3px;
-  border-bottom: 2px solid #100318; /* width of the border, type, color */
+  border-bottom: 2px solid #461A3F; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 .button:hover {
-  background-color: #FC766A;
+  background-color: #FF5662;
   color: #ffffff;
-  pacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
 /*Email Buttons*/
 .button.contact {
   background-color: transparent;
-  color: #100318;
+  color: #461A3F;
   text-transform: uppercase;
-  border: 2px solid #100318;
+  border: 2px solid #461A3F;
 }
 .button.contact:hover {
-  background-color: #FC766A;
+  background-color: #FF5662;
   color: #ffffff;
 }
 
@@ -130,7 +131,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 #hero{
-  background-color: #FEE9E7;
+  background-color: #F2E3F0;
   padding:20px 0;
   display:inline-block;
   width: 100%;
@@ -139,10 +140,13 @@ less specific rules, such as the general styling rules for all of your hyperlink
 #work h2 {
   text-align: center; /* Centers text */
 }
-
+#work{
+  width:100%;
+}
 .logo {
   max-width: 250px;
 }
+
 /*Navigation*/
 nav > ul {
   list-style-type: none;
@@ -160,4 +164,23 @@ nav > ul > li > a {
   color: #100318;
   display: inline-block;
   width: 100%;
+}
+
+/*Footer*/
+footer {
+  background-color: #F2E3F0;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  width:100%;
+}
+
+/*Social*/
+.social > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social > ul > li {
+  display: inline-block;
 }
