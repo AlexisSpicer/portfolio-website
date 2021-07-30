@@ -48,11 +48,19 @@ h2{
   font-size: 1.3em;
   font-weight: 500;
 }
+span{
+  font-size: 1.3em;
+  font-weight: 500;
+}
 h3{
   font-size: 1.1em;
   font-weight: 500;
 }
 p{
+  font-size: 0.9em;
+  font-weight: 300;
+}
+li{
   font-size: 0.9em;
   font-weight: 300;
 }
@@ -91,7 +99,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
   background-color: #461A3F;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 500;
-  padding: 7px;
+  padding: 7px 15px;
   border-radius: 3px;
   border-bottom: 2px solid #461A3F; /* width of the border, type, color */
   transition: 0.2s opacity;
@@ -105,16 +113,23 @@ less specific rules, such as the general styling rules for all of your hyperlink
 
 /*Email Buttons*/
 .button.contact {
+  display: inline-block;
   background-color: transparent;
+  text-align: center;
   color: #461A3F;
+  font-weight: 500;
+  padding: 7px 15px;
   text-transform: uppercase;
   border: 2px solid #461A3F;
+  transition: 0.2s opacity;
 }
 .button.contact:hover {
   background-color: #FF5662;
   color: #ffffff;
 }
-
+.resume-button{
+  text-align: center;
+}
 /*Layout styling 1.7*/
 .container {
   padding: 0 15px;
@@ -129,11 +144,8 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 /* tip section of 1.7 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }*/
 
-#hero h1 {
-  text-align: center; /* Centers text */
-}
-
 #hero{
+  text-align: center; /* Centers text */
   background-color: #F2E3F0;
   padding:20px 0;
   display:inline-block;
