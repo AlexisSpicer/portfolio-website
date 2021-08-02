@@ -6,15 +6,17 @@ H(light purple):#E4DAE3,
 grey purple:#4C3549
 */
 
+
 /*Heading*/
 header {
   background-color: #F2E3F0;
   text-align: center;
   padding: 10px 0;
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+  margin: 0 auto;
+  /* No spacing to top and bottom and auto spacing to left and right */
   box-shadow: 2px 2px 3px 0px rgba(123, 65, 123, 0.75);
-  position:fixed;
-  width:100%;
+  position: fixed;
+  width: 100%;
 }
 
 /*Universal selector * BEFORE body*/
@@ -22,92 +24,112 @@ header {
   box-sizing: border-box;
 }
 
-main{
-  padding-top:129.31px;
-
+main {
+  padding-top: 129.31px;
 }
+
 /*Fonts*/
-body{
-  background-color:#FCFAFF;
+body {
+  background-color: #FCFAFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color:#100318;
+  color: #100318;
   text-align: left;
 }
 
-h1,h2,h3,h4{
+h1, h2, h3, h4 {
   line-height: 1.5;
 }
-h1{
+
+h1 {
   font-size: 1.5em;
   font-weight: 500;
 }
-h2{
+
+h2 {
   font-size: 1.3em;
   font-weight: 500;
 }
-span{
+
+span {
   font-size: 1.3em;
   font-weight: 500;
 }
-h3{
+
+h3 {
   font-size: 1.1em;
   font-weight: 500;
 }
-p{
+
+p {
   font-size: 0.9em;
   font-weight: 300;
 }
-li{
+
+li {
   font-size: 0.9em;
   font-weight: 300;
 }
 
 /*Scale Images*/
-img{
-  width:100%;
+img {
+  width: 100%;
 }
 
 a {
   color: #FF5662;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
   color: #FF5662;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
-a:active { /* selected link */
+
+a:active {
+  /* selected link */
   color: #FF5662;
   text-decoration: none;
 }
-.phone{
+
+.phone {
   color: #FF5662;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
+
 .phone:hover {
   color: #FF5662;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
 /*Read More Buttons*/
 /*it needs to go close to the bottom; otherwise, it could get overwritten by other
 less specific rules, such as the general styling rules for all of your hyperlinks.*/
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, Remember when you added display:inline-block; to your .button selector in the previous exercise? You did this because buttons, which are an <a> element, default to display:inline;, thus, making them hard to position as they don’t apply vertical spacing. This wasn’t what you wanted, so you overwrote this behavior by changing it to inline-block. */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, Remember when you added display:inline-block; to your .button selector in the previous exercise? You did this because buttons, which are an <a> element, default to display:inline;, thus, making them hard to position as they don’t apply vertical spacing. This wasn’t what you wanted, so you overwrote this behavior by changing it to inline-block. */
   background-color: #461A3F;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 500;
   padding: 7px 15px;
   border-radius: 3px;
-  border-bottom: 2px solid #461A3F; /* width of the border, type, color */
+  border-bottom: 2px solid #461A3F;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
+
 .button:hover {
   background-color: #FF5662;
   color: #ffffff;
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
 
@@ -123,56 +145,63 @@ less specific rules, such as the general styling rules for all of your hyperlink
   border: 2px solid #461A3F;
   transition: 0.2s opacity;
 }
+
 .button.contact:hover {
   background-color: #FF5662;
   color: #ffffff;
 }
-.resume-button{
+
+.resume-button {
   text-align: center;
 }
+
 /*Layout styling 1.7*/
 .container {
   padding: 0 15px;
-  width:100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
-/* tip section of 1.7 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }*/
 
-#hero{
-  text-align: center; /* Centers text */
+/* tip section of 1.7 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }*/
+#hero {
+  text-align: center;
+  /* Centers text */
   background-color: #F2E3F0;
-  padding:20px 0;
-  display:inline-block;
+  padding: 20px 0;
+  display: inline-block;
   width: 100%;
 }
 
 #work h2 {
-  text-align: center; /* Centers text */
+  text-align: center;
+  /* Centers text */
 }
-#work{
-  width:100%;
+
+#work {
+  width: 100%;
 }
+
 .logo {
   max-width: 250px;
 }
 
 /*Navigation*/
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 300;
@@ -186,16 +215,38 @@ footer {
   background-color: #F2E3F0;
   text-align: center;
   padding: 10px 0;
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
-  width:100%;
+  margin: 0 auto;
+  /* No spacing to top and bottom and auto spacing to left and right */
+  width: 100%;
 }
 
 /*Social*/
-.social > ul {
+.social>ul {
   list-style-type: none;
   padding: 0;
 }
 
-.social > ul > li {
+.social>ul>li {
   display: inline-block;
 }
+
+/*Media Queries*/
+/*Medium >/= 640px*/
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+}
+
+/*Large >/= 1024px*/
+@media only screen and (min-width: 1024px) {}
+
+/*Extra Large >/= 1440px*/
+@media only screen and (min-width: 14404px) {}
