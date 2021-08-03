@@ -5,8 +5,6 @@ H(light purple):#E4DAE3,
 (orange):#FC766A,
 grey purple:#4C3549
 */
-
-
 /*Heading*/
 header {
   background-color: #F2E3F0;
@@ -39,6 +37,10 @@ body {
   text-align: left;
 }
 
+#hero span {
+  display: block;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.5;
 }
@@ -53,11 +55,10 @@ h2 {
   font-weight: 500;
 }
 
-span {
+/*span {
   font-size: 1.3em;
   font-weight: 500;
-}
-
+}*/
 h3 {
   font-size: 1.1em;
   font-weight: 500;
@@ -118,6 +119,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 500;
+  text-decoration: none;
   padding: 7px 15px;
   border-radius: 3px;
   border-bottom: 2px solid #461A3F;
@@ -186,6 +188,36 @@ less specific rules, such as the general styling rules for all of your hyperlink
 #work {
   width: 100%;
 }
+/*About page*/
+#about h1 {
+  text-align: center;
+  /* Centers text */
+}
+
+#about h1{
+  width: 100%;
+}
+#hi h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+#hi h2 {
+  width: 100%;
+}
+
+#skill h2 {
+  text-align: center;
+  /* Centers text */
+}
+
+#skill h2 {
+  width: 100%;
+}
+
+#about-page h3 {
+  margin-top: 0;
+}
 
 .logo {
   max-width: 250px;
@@ -229,6 +261,46 @@ footer {
 .social>ul>li {
   display: inline-block;
 }
+.svg-social{
+  width:44px;
+  height:44px;
+}
+
+/*Berlin Illustration*/
+.berlin-illustration{
+  width: 100%;
+max-width: 100%;
+height: auto;}
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
 
 /*Media Queries*/
 /*Medium >/= 640px*/
@@ -243,10 +315,42 @@ footer {
     float: right;
     margin-top: 4px;
   }
+
+  main {
+    padding-top: 94px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 0px 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
 
 /*Large >/= 1024px*/
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58.33%;
+  }
 
-/*Extra Large >/= 1440px*/
-@media only screen and (min-width: 14404px) {}
+  .col-lg-5 {
+    width: 41.66%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Extra Large >/= 1440px*/
+  @media only screen and (min-width: 14404px) {}
