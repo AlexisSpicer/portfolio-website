@@ -256,78 +256,49 @@ footer {
   width:44px;
   height:44px;
 }
-
-/*AS ABOUT Illustration*/
+/*AS logo*/
 .aslogo{
-  width:25%;
+  width:50%;
   display:block;
   margin: auto;
 }
+
+/*Berlin Illustration*/
+.berlin-illustration{
+  width: 100%;
+max-width: 100%;
+height: auto;}
+
 @keyframes color-change {
-  from {fill: #FB5B5F;}
-  to {fill: #461A3F;}
+  from {fill: #edc655;}
+  to {fill: #f76414;}
 }
-.a {
-  animation-duration: 2s;
+.sun {
+  animation-duration: 4s;
   animation-name: color-change;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   animation-timing-function: linear;
 }
-@keyframes color-change {
-  from {fill: #461A3F;}
-  to {fill: #FB5B5F;}
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
 }
-.s {
-  animation-duration: 2.5s;
-  animation-name: color-change;
-  animation-iteration-count: 1;
-  animation-direction: normal;
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   animation-timing-function: linear;
 }
-@keyframes aslogo-move {
-  from {transform: translateX(-45px);}
-  to {transform: translateX(0px);}
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
 }
-.aslogo {
-  animation-duration: 2.5s;
-  animation-name: aslogo-move;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: linear;
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
-/*AS INDEX Illustration*/
-.aslogo1{
-  width:10%;
-  display:block;
-  margin: auto;
-}
-@keyframes color-change {
-  from {fill: #FB5B5F;}
-  to {fill: #461A3F;}
-}
-.a {
-  animation-duration: 2.5s;
-  animation-name: color-change;
-  animation-iteration-count: 1;
-  animation-direction: reverse;
-  animation-timing-function: linear;
-}
-@keyframes color-change {
-  from {fill: #461A3F;}
-  to {fill: #FB5B5F;}
-}
-@keyframes aslogo1-move {
-  from {transform: translateX(-15px);}
-  to {transform: translateX(0px);}
-}
-.aslogo1 {
-  animation-duration: 2.5s;
-  animation-name: aslogo-move;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-timing-function: linear;
-}
+
 /*Media Queries*/
 /*Medium >/= 640px*/
 @media only screen and (min-width: 640px) {
