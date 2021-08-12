@@ -8,7 +8,6 @@ grey purple:#4C3549
 /*Heading*/
 header {
   background-color: #F2E3F0;
-  text-align: center;
   padding: 10px 0;
   margin: 0 auto;
   /* No spacing to top and bottom and auto spacing to left and right */
@@ -74,6 +73,21 @@ li {
   font-weight: 300;
 }
 
+/* hide the navigation items (except the menu icon). To achieve, this you’ll need the following code: */
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+/* sets the stage for use with JS later */
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+/* Increase size of font of hamburger menu and move to the right */
+.navtoggle li .icon {
+  position: absolute;
+  right:0;
+  top: 2px;
+  font-size: 20px;
+}
 /*Scale Images*/
 img {
   width: 100%;
@@ -220,10 +234,6 @@ nav>ul {
   padding: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
-}
-
 nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -247,14 +257,11 @@ footer {
 .social>ul {
   list-style-type: none;
   padding: 0;
-}
+  }
 
 .social>ul>li {
   display: inline-block;
-}
-.svg-social{
-  width:44px;
-  height:44px;
+   padding: 20px 8px;
 }
 
 /*AS ABOUT Illustration*/
@@ -328,17 +335,29 @@ footer {
   animation-direction: normal;
   animation-timing-function: linear;
 }
-/*Media Queries*/
+/*--------------------------------Media Queries-------------------------------*/
 /*Medium >/= 640px*/
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
+/* the navigation items will only be hidden on mobile (but will be visible on larger screen sizes */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+/* hide the hamburger menu icon. */
+.navtoggle li:last-child {
+  display: none;
+}
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav>ul>li {
+    display: inline-block;
   }
   .logo {
     max-width: 200px;
