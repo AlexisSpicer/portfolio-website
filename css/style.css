@@ -8,8 +8,7 @@ grey purple:#4C3549
 /*Heading*/
 header {
   background-color: #F2E3F0;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   margin: 0 auto;
   /* No spacing to top and bottom and auto spacing to left and right */
   box-shadow: 2px 2px 3px 0px rgba(123, 65, 123, 0.75);
@@ -23,7 +22,7 @@ header {
 }
 
 main {
-  padding-top: 129.31px;
+  padding-top: 44.41px;
 }
 
 /*Fonts*/
@@ -73,8 +72,39 @@ li {
   font-size: 0.9em;
   font-weight: 300;
 }
+/* -----------------------------NAV TOGGLE -----------------------------*/
+/* hide the navigation items (except the menu icon). To achieve, this you’ll need the following code: */
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+/* sets the stage for use with JS later */
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+/* Increase size of font of hamburger menu and move to the right */
+.navtoggle li .icon {
+  position: absolute;
+right:0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+}
 
-/*Scale Images*/
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px ;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+/*-----------------------------Scale Images-----------------------------*/
 img {
   width: 100%;
 }
@@ -211,17 +241,14 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 /*Navigation*/
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav>ul>li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav>ul>li>a {
@@ -229,8 +256,6 @@ nav>ul>li>a {
   text-transform: uppercase;
   font-weight: 300;
   color: #100318;
-  display: inline-block;
-  width: 100%;
 }
 
 /*Footer*/
@@ -247,14 +272,12 @@ footer {
 .social>ul {
   list-style-type: none;
   padding: 0;
-}
+  font-size: 40px;
+  }
 
 .social>ul>li {
   display: inline-block;
-}
-.svg-social{
-  width:44px;
-  height:44px;
+   padding: 20px 8px;
 }
 
 /*AS ABOUT Illustration*/
@@ -328,19 +351,35 @@ footer {
   animation-direction: normal;
   animation-timing-function: linear;
 }
-/*Media Queries*/
+/*--------------------------------Media Queries-------------------------------*/
 /*Medium >/= 640px*/
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
+/* the navigation items will only be hidden on mobile (but will be visible on larger screen sizes */
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+/* hide the hamburger menu icon. */
+.navtoggle li:last-child {
+  display: none;
+}
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
   }
-
+  nav > ul {
+    margin: 1em 0;
+  }
+  nav>ul>li {
+    display: inline-block;
+  }
+  .logo {
+    max-width: 250px;
+  }
  main {
     padding-top: 94px;
   }
