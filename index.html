@@ -6,7 +6,7 @@
   <meta name="author" content="Alexis Spicer">
   <meta name="description"
     content="I’m Alexis, a UI Designer, with a background as a hospital pharmacist. I use my analytical and empathetic expertise to deliver elegantly simple and intuitive user interfaces to bring immediate value to the user experience.">
-  <title>Alexis Spicer - UI Designer - Home Page</title>
+  <title>Alexis Spicer - UI Designer - About Page</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -16,21 +16,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
   <!-- favicon -->
   <link href="favicon.ico" rel="shortcut icon">
+  <!--   Hamburger Menu -->
+  <i class="fas fa-bars"></i>
   <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body id="about-page">
   <header>
     <div class="container">
-      <a href="index.html"> <img class="logo" src="img/alexisspicerlogo.svg" alt="Alexis Spicer Logo"></a>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"> <img class="logo" src="img/alexisspicerlogo.svg" alt="Alexis Spicer Logo"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -48,10 +53,10 @@
               </g>
             </svg>
             <span>I'm UI Designer, with a background as a hospital pharmacist.</span>
+          </div>
         </h1>
+        <p>I use my analytical and empathetic expertise to deliver elegantly simple and intuitive user interfaces to bring immediate value to the user experience.</p>
       </div>
-      <p>I use my analytical and empathetic expertise to deliver elegantly simple and intuitive user interfaces to bring immediate value to the user experience.</p>
-    </div>
     </div>
     <!-- WORK -->
 
@@ -402,7 +407,7 @@
       </div>
     </div>
   </footer>
-  <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 </body>
 

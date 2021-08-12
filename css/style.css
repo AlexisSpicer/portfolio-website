@@ -23,7 +23,7 @@ header {
 }
 
 main {
-  padding-top: 129.31px;
+  padding-top: 107.41px;
 }
 
 /*Fonts*/
@@ -211,7 +211,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 
 /*Navigation*/
@@ -340,7 +340,9 @@ footer {
     float: right;
     margin-top: 4px;
   }
-
+  .logo {
+    max-width: 200px;
+  }
  main {
     padding-top: 94px;
   }
