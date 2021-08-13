@@ -1,13 +1,15 @@
 /*
 Colors
-H(light purple):#E4DAE3,
-(dark purple):#461A3F,
-(orange):#FC766A,
-grey purple:#4C3549
+(header and footer border)):#E4DAE3--->432316,
+(dark purple):#461A3F --->272321,
+(orange):#FC766A  --->FF8E67,
+grey purple:#4C3549--->7F6288
+body FCFAFF ---> 272321
+text FF8E67----> FF8E67
 */
 /*Heading*/
 header {
-  background-color: #F2E3F0;
+  background-color: #A35033;
   padding: 10px 0 4px;
   margin: 0 auto;
   /* No spacing to top and bottom and auto spacing to left and right */
@@ -27,12 +29,13 @@ main {
 
 /*Fonts*/
 body {
-  background-color: #FCFAFF;
+  background-color: #212121;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  color: #100318;
+/* text color */
+  color: #ffffff;
   text-align: left;
 }
 
@@ -110,31 +113,31 @@ img {
 }
 
 a {
-  color: #FF5662;
+  color: #FF8E67;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #FF5662;
+  color: #FF8E67;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:active {
   /* selected link */
-  color: #FF5662;
+  color: #FF8E67;
   text-decoration: none;
 }
 
 .phone {
-  color: #FF5662;
+  color: #FF8E67;
   text-decoration: none;
   /* No underlining */
 }
 
 .phone:hover {
-  color: #FF5662;
+  color: #FF8E67;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -158,7 +161,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 .button:hover {
-  background-color: #FF5662;
+  background-color: #FF8E67;
   color: #ffffff;
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
@@ -170,7 +173,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
   display: inline-block;
   background-color: transparent;
   text-align: center;
-  color: #461A3F;
+  color: #ffffff;
   font-weight: 500;
   padding: 7px 15px;
   text-transform: uppercase;
@@ -179,7 +182,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 .button.contact:hover {
-  background-color: #FF5662;
+  background-color: #FF8E67;
   color: #ffffff;
 }
 
@@ -204,7 +207,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 #hero {
   text-align: center;
   /* Centers text */
-  background-color: #F2E3F0;
+  background-color: #7F6288;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -255,12 +258,12 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #100318;
+  color: #69472;
 }
 
 /*Footer*/
 footer {
-  background-color: #F2E3F0;
+  background-color: #A35033;
   text-align: center;
   padding: 10px 0;
   margin: 0 auto;
