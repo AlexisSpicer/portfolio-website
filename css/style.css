@@ -2,7 +2,7 @@
 Colors
 H(light purple):#E4DAE3,
 (dark purple):#461A3F,
-(orange):#FC766A,
+(orange):#FF8C61 ---> FF8C61,
 grey purple:#4C3549
 */
 /*Heading*/
@@ -110,31 +110,31 @@ img {
 }
 
 a {
-  color: #FF5662;
+  color: #FF8C61;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #FF5662;
+  color: #FF8C61;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:active {
   /* selected link */
-  color: #FF5662;
+  color: #FF8C61;
   text-decoration: none;
 }
 
 .phone {
-  color: #FF5662;
+  color: #FF8C61;
   text-decoration: none;
   /* No underlining */
 }
 
 .phone:hover {
-  color: #FF5662;
+  color: #FF8C61;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -158,7 +158,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 .button:hover {
-  background-color: #FF5662;
+  background-color: #FF8C61;
   color: #ffffff;
   opacity: 0.8;
   /* Reduces the opacity of the button to 80% */
@@ -179,7 +179,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 }
 
 .button.contact:hover {
-  background-color: #FF5662;
+  background-color: #FF8C61;
   color: #ffffff;
 }
 
