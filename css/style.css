@@ -1,17 +1,23 @@
 /*
 Colors
-H(light purple):#E4DAE3,
-(dark purple):#461A3F,
-(orange):#FF8C61 ---> FF8C61,
-grey purple:#4C3549
+dark grey purple: 444154
+light purple: DFD6E1,
+medium purple: 7A637F
+orange: FF7062
+medium orange: F09081
+dark orange: C85C51
+light orange: FBCAC2
+VERY light orange: FFF2F0
+font color: 100318
 */
+
 /*Heading*/
 header {
-  background-color: #F2E3F0;
+  background-color: #FFF2F0;
   padding: 10px 0 4px;
   margin: 0 auto;
   /* No spacing to top and bottom and auto spacing to left and right */
-  box-shadow: 2px 2px 3px 0px rgba(123, 65, 123, 0.75);
+  box-shadow:0px 3px 1px 0px rgba(255, 112, 98, 1);
   position: fixed;
   width: 100%;
 }
@@ -27,7 +33,7 @@ main {
 
 /*Fonts*/
 body {
-  background-color: #FCFAFF;
+  background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -72,8 +78,10 @@ li {
   font-size: 0.9em;
   font-weight: 300;
 }
-/* -----------------------------NAV TOGGLE -----------------------------*/
+/* -----------------------------Navigation TOGGLE -----------------------------*/
 /* hide the navigation items (except the menu icon). To achieve, this you’ll need the following code: */
+
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -84,9 +92,9 @@ li {
 /* Increase size of font of hamburger menu and move to the right */
 .navtoggle li .icon {
   position: absolute;
-right:0;
+  right:0;
   top: 2px;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 0;
 }
 .navtoggle.responsive li  {
@@ -99,7 +107,7 @@ right:0;
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-   border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 2px solid rgba(255,112,98, 2);
 }
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
@@ -110,31 +118,31 @@ img {
 }
 
 a {
-  color: #FF8C61;
+  color: #FF7062;
   text-decoration: none;
   /* No underlining */
 }
 
 a:hover {
-  color: #FF8C61;
+  color: #FF7062;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:active {
   /* selected link */
-  color: #FF8C61;
+  color: #FF7062;
   text-decoration: none;
 }
 
 .phone {
-  color: #FF8C61;
+  color: #FF7062;
   text-decoration: none;
   /* No underlining */
 }
 
 .phone:hover {
-  color: #FF8C61;
+  color: #FF7062;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
@@ -145,22 +153,22 @@ less specific rules, such as the general styling rules for all of your hyperlink
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, Remember when you added display:inline-block; to your .button selector in the previous exercise? You did this because buttons, which are an <a> element, default to display:inline;, thus, making them hard to position as they don’t apply vertical spacing. This wasn’t what you wanted, so you overwrote this behavior by changing it to inline-block. */
-  background-color: #461A3F;
+  background-color: #24222C;
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 500;
   text-decoration: none;
   padding: 7px 15px;
   border-radius: 3px;
-  border-bottom: 2px solid #461A3F;
+  border-bottom: 2px solid #444154;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
 .button:hover {
-  background-color: #FF8C61;
+  background-color: #FF7062;
   color: #ffffff;
-  opacity: 0.8;
+  opacity: 0.9;
   /* Reduces the opacity of the button to 80% */
   text-decoration: none;
 }
@@ -170,17 +178,17 @@ less specific rules, such as the general styling rules for all of your hyperlink
   display: inline-block;
   background-color: transparent;
   text-align: center;
-  color: #461A3F;
+  color: #444154;
   font-weight: 500;
   padding: 7px 15px;
   text-transform: uppercase;
-  border: 2px solid #461A3F;
+  border: 2px solid #444154;
   transition: 0.2s opacity;
 }
 
 .button.contact:hover {
-  background-color: #FF8C61;
-  color: #ffffff;
+  background-color: #FF7062;
+  color: #FFF2F0;
 }
 
 .resume-button {
@@ -204,7 +212,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 #hero {
   text-align: center;
   /* Centers text */
-  background-color: #F2E3F0;
+  background-color: #FFF2F0;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -260,10 +268,11 @@ nav>ul>li>a {
 
 /*Footer*/
 footer {
-  background-color: #F2E3F0;
+  background-color: #FFF2F0;
   text-align: center;
   padding: 10px 0;
   margin: 0 auto;
+  box-shadow: 0px -3px 1px 0px rgba(255, 112, 98, 1);
   /* No spacing to top and bottom and auto spacing to left and right */
   width: 100%;
 }
@@ -277,7 +286,7 @@ footer {
 
 .social>ul>li {
   display: inline-block;
-   padding: 20px 8px;
+   padding: 0 5px;
 }
 
 /*AS ABOUT Illustration*/
@@ -288,7 +297,7 @@ footer {
 }
 @keyframes color-change {
   from {fill: #FB5B5F;}
-  to {fill: #461A3F;}
+  to {fill: #444154;}
 }
 .a {
   animation-duration: 2s;
@@ -298,7 +307,7 @@ footer {
   animation-timing-function: linear;
 }
 @keyframes color-change {
-  from {fill: #461A3F;}
+  from {fill: #444154;}
   to {fill: #FB5B5F;}
 }
 .s {
@@ -327,18 +336,25 @@ footer {
 }
 @keyframes color-change {
   from {fill: #FB5B5F;}
-  to {fill: #461A3F;}
+  to {fill: #444154;}
 }
 .a {
-  animation-duration: 2.5s;
+  animation-duration: 3s;
   animation-name: color-change;
   animation-iteration-count: 1;
   animation-direction: reverse;
   animation-timing-function: linear;
 }
 @keyframes color-change {
-  from {fill: #461A3F;}
+  from {fill: #444154;}
   to {fill: #FB5B5F;}
+}
+.s {
+  animation-duration: 3s;
+  animation-name: color-change;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-timing-function: linear;
 }
 @keyframes aslogo1-move {
   from {transform: translateX(-15px);}
