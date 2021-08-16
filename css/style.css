@@ -416,6 +416,22 @@ footer {
     clear: both;
     display: table;
   }
+  .button.contact {
+    display: inline-block;
+    background-color: transparent;
+    text-align: center;
+    color: #444154;
+    font-weight: 500;
+    padding: 7px 15px;
+    text-transform: uppercase;
+    border: 0px solid #444154;
+    transition: 0.2s opacity;
+  }
+
+  .button.contact:hover {
+    background-color: #FF7062;
+    color: #FFF2F0;
+  }
 }
 
 /*Large >/= 1024px*/
