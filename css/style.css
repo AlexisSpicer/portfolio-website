@@ -92,9 +92,9 @@ li {
 /* Increase size of font of hamburger menu and move to the right */
 .navtoggle li .icon {
   position: absolute;
-right:0;
+  right:0;
   top: 2px;
-  font-size: 20px;
+  font-size: 18px;
   padding-right: 0;
 }
 .navtoggle.responsive li  {
@@ -212,7 +212,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 #hero {
   text-align: center;
   /* Centers text */
-  background-color: #ffffff;
+  background-color: #FFF2F0;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
