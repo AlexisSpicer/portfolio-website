@@ -402,7 +402,7 @@ footer {
     padding-top: 94px;
   }
 .resume-button{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
   .col-md-6 {
     width: 50%;
@@ -423,7 +423,7 @@ footer {
 /*Large >/= 1024px*/
 @media only screen and (min-width: 1024px) {
   .col-lg-7 {
-    width: 58.33%;
+    width: 58.3
   }
 
   .col-lg-5 {
