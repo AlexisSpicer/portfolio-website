@@ -97,13 +97,14 @@ li {
   font-size: 18px;
   padding-right: 0;
 }
-.navtoggle.responsive li  {
-  display: block;
-}
-
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
+/* Duplicate
+.navtoggle.responsive li  {
+  display: block;
+} */
+
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
@@ -387,11 +388,12 @@ footer {
     float: right;
     margin-top: 4px;
   }
-  nav > ul {
-    margin: 1em 0;
-  }
   nav>ul>li {
     display: inline-block;
+    position: relative;
+  }
+  nav > ul {
+    margin: 1em 0;
   }
   .logo {
     max-width: 250px;
