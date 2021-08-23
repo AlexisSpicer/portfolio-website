@@ -60,10 +60,6 @@ h2 {
   font-weight: 500;
 }
 
-/*span {
-  font-size: 1.3em;
-  font-weight: 500;
-}*/
 h3 {
   font-size: 1.1em;
   font-weight: 500;
@@ -100,15 +96,11 @@ li {
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-/* Duplicate
-.navtoggle.responsive li  {
-  display: block;
-} */
 
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 2px solid rgba(255,112,98, 2);
+  border-top: 2px solid rgba(255,112,98,2);
 }
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
@@ -227,8 +219,46 @@ less specific rules, such as the general styling rules for all of your hyperlink
 #work {
   width: 100%;
 }
-
+#me h2{
+  text-align: center;
+    width: 100%;
+}
+#skills h2{
+  text-align: center;
+    width: 100%;
+}
+#process h2{
+  text-align: center;
+    width: 100%;
+}
+#process1 h2{
+  text-align: center;
+    width: 100%;
+}
+#process2 h2{
+  text-align: center;
+    width: 100%;
+}
+#process3 h2{
+  text-align: center;
+    width: 100%;
+}
 #center{
+  text-align: center;
+    width: 100%;
+}
+#center1{
+  text-align: center;
+    width: 100%;
+}#center2{
+  text-align: center;
+    width: 100%;
+}
+#center3{
+  text-align: center;
+    width: 100%;
+}
+#center4{
   text-align: center;
     width: 100%;
 }
@@ -279,6 +309,10 @@ footer {
 }
 
 /*Social*/
+.social ul {
+  margin:0;
+  }
+
 .social>ul {
   list-style-type: none;
   padding: 0;
@@ -423,7 +457,7 @@ footer {
 /*Large >/= 1024px*/
 @media only screen and (min-width: 1024px) {
   .col-lg-7 {
-    width: 58.3
+    width: 58.3%
   }
 
   .col-lg-5 {
