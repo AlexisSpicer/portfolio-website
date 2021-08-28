@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="514" viewBox="0 0 600 514">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="600" height="514" fill="#FFF"/>
+    <rect width="93.668" height="56.242" x="117.085" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="138.628" y="32.564">App Entry</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="117.085" y="74.982" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="144.248" y="107.543">Sign Up</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="240.726" y=".937" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="273.509" y="33.499">Login</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="117.085" y="149.963" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="133.008" y="175.968">Account </tspan> <tspan x="133.008" y="188.968">Preferences</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="117.085" y="299.926" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="133.008" y="325.931">Account </tspan> <tspan x="133.008" y="338.931">Preferences</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="117.085" y="224.945" fill="#E1E4F2" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="133.008" y="250.949">Location</tspan> <tspan x="133.008" y="263.949">Preferences</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="117.085" y="374.908" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="133.008" y="400.912">Notification</tspan> <tspan x="133.008" y="413.912">Preferences</tspan>
+    </text>
+    <g transform="translate(0 113.41)">
+      <rect width="93.668" height="56.236" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+      <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+        <tspan x="16.86" y="19.448">Notification</tspan> <tspan x="16.86" y="32.448">Pop up</tspan> <tspan x="16.86" y="45.448">Permission</tspan>
+      </text>
+    </g>
+    <path fill="#2C3F56" fill-rule="nonzero" d="M163.918306 56.236459L163.918 65.075 167.791658 65.0756458 163.449968 74.0756458 159.108278 65.0756458 162.981 65.075 162.98163 56.236459 163.918306 56.236459zM163.918306 132.155278L163.918 140.994 167.791658 140.994465 163.449968 149.994465 159.108278 140.994465 162.981 140.994 162.98163 132.155278 163.918306 132.155278zM163.918306 356.162658L163.918 365.001 167.791658 365.001845 163.449968 374.001845 159.108278 365.001845 162.981 365.001 162.98163 356.162658 163.918306 356.162658zM410.264103 57.1737284L410.264 66.95 414.137455 66.9501845 409.795765 75.9501845 405.454075 66.9501845 409.327 66.95 409.327427 57.1737284 410.264103 57.1737284zM410.264103 134.029817L410.264 143.806 414.137455 143.806273 409.795765 152.806273 405.454075 143.806273 409.327 143.806 409.327427 134.029817 410.264103 134.029817zM409.327427 207.136828L409.327 216.913 413.200779 216.913284 408.859089 225.913284 404.517399 216.913284 408.39 216.913 408.390751 207.136828 409.327427 207.136828zM410.264103 282.118378L410.264 291.894 414.137455 291.894834 409.795765 300.894834 405.454075 291.894834 409.327 291.894 409.327427 282.118378 410.264103 282.118378zM410.264103 358.037197L410.264 367.813 414.137455 367.813653 409.795765 376.813653 405.454075 367.813653 409.327 367.813 409.327427 358.037197 410.264103 358.037197zM409.327427 433.956016L409.327 443.732 413.200779 443.732472 408.859089 452.732472 404.517399 443.732472 408.39 443.732 408.390751 433.956016 409.327427 433.956016zM164.854982 207.136828L164.854 215.976 168.728334 215.976015 164.386644 224.976015 160.044954 215.976015 163.918 215.976 163.918306 207.136828 164.854982 207.136828zM163.918306 282.118378L163.918 291.894 167.791658 291.894834 163.449968 300.894834 159.108278 291.894834 162.981 291.894 162.98163 282.118378 163.918306 282.118378z"/>
+    <rect width="93.668" height="56.236" x="362.494" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="394.341" y="32.561">Home</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="362.494" y="76.856" fill="#E1E4F2" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="378.899" y="93.575">Choose </tspan> <tspan x="378.899" y="106.575">Cuisine </tspan> <tspan x="378.899" y="119.575">Preferences</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="362.494" y="151.838" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="397.151" y="184.399">Feed</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="362.494" y="226.819" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="397.151" y="259.381">Deal</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="474.895" y="262.435" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="494.565" y="288.44">Claim Deal </tspan> <tspan x="494.565" y="301.44">Pop up</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="362.494" y="301.801" fill="#E1E4F2" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="378.417" y="334.362">Review Deal</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="361.557" y="376.782" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="369.05" y="409.344">Preview Review</tspan>
+    </text>
+    <rect width="93.668" height="56.236" x="362.494" y="451.764" stroke="#2C3F56" stroke-width="1.873" rx="9.367"/>
+    <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="11.24">
+      <tspan x="369.987" y="484.325">Publish Review</tspan>
+    </text>
+    <path fill="#2C3F56" fill-rule="nonzero" d="M465.129567,175.145395 L465.129,179.018 L599.472662,179.018747 L599.472662,179.955423 L465.129,179.955 L465.129567,183.828775 L456.129567,179.487085 L465.129567,175.145395 Z"/>
+    <polyline stroke="#2C3F56" stroke-width="1.873" points="210.752 403.026 349.38 403.026 349.38 27.181"/>
+    <line x1="409.796" x2="475.363" y1="288.21" y2="288.21" stroke="#2C3F56" stroke-linecap="square" stroke-width=".937"/>
+    <line x1="163.45" x2="94.136" y1="137.31" y2="137.31" stroke="#2C3F56" stroke-linecap="square" stroke-width=".937"/>
+    <polyline stroke="#2C3F56" stroke-width=".937" points="456.161 479.882 600 479.882 600 178.081"/>
+    <path fill="#4A5A6E" fill-rule="nonzero" d="M231.757403,24.2450258 L240.757403,28.5867159 L231.757403,32.928406 L231.757,29.055 L210.752108,29.0550539 L210.752108,28.1183778 L231.757,28.118 L231.757403,24.2450258 Z"/>
+    <path fill="#2C3F56" fill-rule="nonzero" d="M355.39864,23.3077564 L364.39864,27.6494465 L355.39864,31.9911366 L355.398,28.117 L334.393344,28.1177845 L334.393344,27.1811085 L355.398,27.181 L355.39864,23.3077564 Z"/>
+  </g>
+</svg>
