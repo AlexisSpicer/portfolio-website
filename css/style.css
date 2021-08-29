@@ -13,7 +13,7 @@ font color: 100318
 
 /*Heading*/
 header {
-  background-color: #FFF2F0;
+  background-color: #FFffff;
   padding: 10px 0 4px;
   margin: 0 auto;
   /* No spacing to top and bottom and auto spacing to left and right */
@@ -146,7 +146,7 @@ less specific rules, such as the general styling rules for all of your hyperlink
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, Remember when you added display:inline-block; to your .button selector in the previous exercise? You did this because buttons, which are an <a> element, default to display:inline;, thus, making them hard to position as they don’t apply vertical spacing. This wasn’t what you wanted, so you overwrote this behavior by changing it to inline-block. */
-  background-color: #24222C;
+  background-color: #FF7062;
   color: #ffffff;
   /* needed to override the default link color */
   font-weight: 500;
@@ -331,7 +331,7 @@ footer {
   margin: auto;
 }
 @keyframes color-change {
-  from {fill: #FB5B5F;}
+  from {fill: #FF7062;}
   to {fill: #444154;}
 }
 .a {
@@ -343,7 +343,7 @@ footer {
 }
 @keyframes color-change {
   from {fill: #444154;}
-  to {fill: #FB5B5F;}
+  to {fill: #FF7062;}
 }
 .s {
   animation-duration: 2.5s;
